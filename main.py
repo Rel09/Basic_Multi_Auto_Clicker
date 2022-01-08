@@ -65,7 +65,7 @@ def click(_x, _y, _action, _timer):
     pause_checker() # we check for pause before the sleep
     #If the timer isnt nothing
     if _timer.islower() != "none":
-        pyautogui.sleep(int(_timer))
+        pyautogui.sleep(float(_timer))
     pause_checker() # we check for pause after the sleep
 
 # Press the green button in the gutter to run the script.
