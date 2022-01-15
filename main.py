@@ -58,9 +58,9 @@ def click(_x, _y, _action, _timer):
                 _x, _y = pyautogui.locateCenterOnScreen(_x, confidence=0.9)
             except:pass
 
-        elif "imgwait(" in _x.lower():
+        elif "imglock(" in _x.lower():
 
-            _x = _x.replace("imgwait('", "")
+            _x = _x.replace("imglock('", "")
             _x = _x.replace("')", "")
             _x.lower()
             _x.strip()
