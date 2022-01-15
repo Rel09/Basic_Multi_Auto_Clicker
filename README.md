@@ -1,4 +1,5 @@
 Program to help with auto-click/Simple bots
+
 This is still in its beta state.
 
 r(x,y) for Randomisation
